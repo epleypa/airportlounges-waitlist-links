@@ -4,7 +4,7 @@
 [![Download PDF](https://img.shields.io/badge/Download-PDF_Directory-red.svg?style=for-the-badge&logo=adobe-acrobat-reader)](assets/lounges.pdf)
 [![Live Interactive Search](https://img.shields.io/badge/Search_%26_Filter-Live_Web_App-brightgreen.svg?style=for-the-badge&logo=safari)](https://summyfeb12.github.io/airportlounges-waitlist-links/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=for-the-badge)](CONTRIBUTING.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg?style=for-the-badge)](LICENSE)
 
 > **Crowd-sourced repository of digital waitlist links and check-in URLs for airport lounges worldwide.**
 > Skip standing in long physical queues by accessing the direct queueing links right from your phone before arriving at the gate.
@@ -192,5 +192,6 @@ Found a new lounge waitlist link or notice an expired queue URL? We'd love your 
 This repository and project are an independent, community-driven, crowd-sourced effort. It is **not affiliated with, endorsed by, or sponsored by** any airport, airline, lounge operator, financial institution, or credit card network (including but not limited to American Express, Chase, Capital One, Delta Air Lines, United Airlines, American Airlines, Priority Pass, Plaza Premium, or others). All trademarks, logos, and brand names are the property of their respective owners. Waitlist availability, queue times, entry eligibility, and rules are subject to change at the discretion of the individual lounge operators.
 
 ## 📜 License
-MIT License - see [LICENSE](LICENSE) for details.
+This project is dedicated to the public domain under [The Unlicense](LICENSE).
+
 
