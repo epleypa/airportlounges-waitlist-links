@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AirportLoungesList",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "airport_code",
+      "airport_name",
+      "city",
+      "country",
+      "terminal",
+      "lounge_name",
+      "network",
+      "waitlist_url",
+      "last_verified"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+-[a-z0-9]+-[a-z0-9-]+$",
+        "description": "Standardized kebab-case identifier: <iata_code_lower>-<terminal_lower>-<lounge_slug>"
+      },
+      "airport_code": {
+        "type": "string",
+        "pattern": "^[A-Z]{3}$",
+        "description": "3-letter uppercase IATA airport code"
+      },
+      "airport_name": {
+        "type": "string",
+        "minLength": 3
+      },
+      "city": {
+        "type": "string",
+        "minLength": 2
+      },
+      "country": {
+        "type": "string",
+        "pattern": "^[A-Z]{2}$",
+        "description": "2-letter uppercase ISO country code"
+      },
+      "terminal": {
+        "type": "string",
+        "minLength": 1
+      },
+      "lounge_name": {
+        "type": "string",
+        "minLength": 2
+      },
+      "network": {
+        "type": "string",
+        "enum": [
+          "American Express Centurion",
+          "Chase Sapphire Lounge",
+          "Capital One Lounge",
+          "Delta Sky Club",
+          "United Club",
+          "American Airlines Admirals Club",
+          "Priority Pass",
+          "Plaza Premium",
+          "Escape Lounges",
+          "The Club",
+          "Air France / KLM Lounge",
+          "British Airways Galleries",
+          "Independent"
+        ]
+      },
+      "waitlist_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://.*"
+      },
+      "qr_code_only": {
+        "type": "boolean",
+        "default": false
+      },
+      "notes": {
+        "type": "string"
+      },
+      "last_verified": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      }
+    },
+    "additionalProperties": false
+  }
+}

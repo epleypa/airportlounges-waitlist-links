@@ -1,0 +1,27 @@
+{
+  "name": "airportlounges-waitlist-links",
+  "version": "1.0.0",
+  "description": "Crowd-sourced repository for airport lounges digital waitlist URLs",
+  "main": "scripts/build.js",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "test": "npm run validate"
+  },
+  "keywords": [
+    "airport",
+    "lounges",
+    "waitlist",
+    "centurion",
+    "sky-club",
+    "sapphire-lounge",
+    "priority-pass"
+  ],
+  "author": "Open Source Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "pdfkit": "^0.15.0"
+  }
+}
