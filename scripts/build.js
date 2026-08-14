@@ -47,18 +47,18 @@ function generateMarkdownTable(lounges) {
   let currentAirport = '';
   lounges.forEach((l) => {
     const qrBadge = l.qr_code_only ? ' `[QR Only]`' : '';
-    const linkDisplay = `[**Join Waitlist** ↗](${l.waitlist_url})`;
+    const linkDisplay = `<a href="${l.waitlist_url}" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a>`;
     const notesDisplay = l.notes ? l.notes.replace(/\|/g, '\\|') : '-';
     const verifiedDisplay = `\`${l.last_verified}\``;
 
-    // Anchor on first lounge of each airport
-    const airportAnchor =
-      l.airport_code !== currentAirport
-        ? `<a id="${l.airport_code.toLowerCase()}"></a>**${l.airport_code}**<br>_${l.city}_`
-        : `**${l.airport_code}**`;
-    currentAirport = l.airport_code;
+    // Anchor on first lounge of each airport; always show code and city consistently
+    let airportDisplay = `**${l.airport_code}**<br>_${l.city}_`;
+    if (l.airport_code !== currentAirport) {
+      airportDisplay = `<a id="${l.airport_code.toLowerCase()}"></a>${airportDisplay}`;
+      currentAirport = l.airport_code;
+    }
 
-    md += `| ${airportAnchor} | ${l.terminal.replace(/\|/g, '\\|')} | **${l.lounge_name.replace(/\|/g, '\\|')}**${qrBadge} | \`${l.network}\` | ${linkDisplay} | ${notesDisplay} | ${verifiedDisplay} |\n`;
+    md += `| ${airportDisplay} | ${l.terminal.replace(/\|/g, '\\|')} | **${l.lounge_name.replace(/\|/g, '\\|')}**${qrBadge} | \`${l.network}\` | ${linkDisplay} | ${notesDisplay} | ${verifiedDisplay} |\n`;
   });
 
   md += `\n---\n\n`;
@@ -73,7 +73,8 @@ function generateMarkdownTable(lounges) {
     md += `| Airport | Terminal | Lounge | Waitlist Link | Notes |\n`;
     md += `| :--- | :--- | :--- | :--- | :--- |\n`;
     netLounges.forEach((l) => {
-      md += `| **${l.airport_code}** | ${l.terminal.replace(/\|/g, '\\|')} | ${l.lounge_name.replace(/\|/g, '\\|')} | [Join Waitlist ↗](${l.waitlist_url}) | ${l.notes || '-'} |\n`;
+      const netLinkDisplay = `<a href="${l.waitlist_url}" target="_blank" rel="noopener noreferrer">Join Waitlist ↗</a>`;
+      md += `| **${l.airport_code}** | ${l.terminal.replace(/\|/g, '\\|')} | ${l.lounge_name.replace(/\|/g, '\\|')} | ${netLinkDisplay} | ${l.notes || '-'} |\n`;
     });
     md += `\n</details>\n\n`;
   });
@@ -104,9 +105,9 @@ function updateReadme(tableContent, totalCount) {
 ---
 
 ### 📥 Export & Quick Access Options
-- 📄 **[Download PDF Quick-Sheet](assets/lounges.pdf)** (Printable / Offline access)
-- 🔍 **[Interactive Search & Filter Web App](https://summyfeb12.github.io/airportlounges-waitlist-links/)** (Instant mobile search by airport, terminal, or network)
-- 💾 **[Raw JSON Dataset](data/lounges.json)**
+- 📄 <a href="assets/lounges.pdf" target="_blank" rel="noopener noreferrer"><b>Download PDF Quick-Sheet</b></a> (Printable / Offline access)
+- 🔍 <a href="https://summyfeb12.github.io/airportlounges-waitlist-links/" target="_blank" rel="noopener noreferrer"><b>Interactive Search & Filter Web App</b></a> (Instant mobile search by airport, terminal, or network)
+- 💾 <a href="data/lounges.json" target="_blank" rel="noopener noreferrer"><b>Raw JSON Dataset</b></a>
 
 ---
 
@@ -520,75 +521,107 @@ function generateWebSearchApp(lounges) {
 
 function generatePDF(lounges) {
   return new Promise((resolve, reject) => {
-    const doc = new PDFDocument({ margin: 40, size: 'A4' });
+    // Use Landscape A4 for wide table presentation (841.89 x 595.28 pt)
+    const doc = new PDFDocument({ margin: 36, size: 'A4', layout: 'landscape' });
     const pdfPathDist = path.join(distDir, 'lounges.pdf');
     const pdfPathAssets = path.join(assetsDir, 'lounges.pdf');
 
     const streamDist = fs.createWriteStream(pdfPathDist);
     doc.pipe(streamDist);
 
-    // Title / Header
-    doc.fillColor('#0f172a').fontSize(22).font('Helvetica-Bold').text('✈️ Airport Lounges Waitlist Directory', { align: 'center' });
-    doc.moveDown(0.2);
-    doc.fontSize(10).font('Helvetica').fillColor('#64748b').text(`Curated crowd-sourced directory · ${lounges.length} lounges verified · Generated on ${new Date().toISOString().split('T')[0]}`, { align: 'center' });
-    doc.moveDown(1);
+    const pageWidth = 841.89;
+    const pageHeight = 595.28;
+    const margin = 36;
+    const contentWidth = pageWidth - margin * 2; // 769.89 pt
 
-    // Table Columns
-    const colX = {
-      airport: 40,
-      lounge: 100,
-      network: 230,
-      terminal: 340,
-      link: 470,
+    // Table Column X Coordinates & Widths
+    const cols = {
+      airport: { x: margin + 8, w: 70 },
+      lounge: { x: margin + 82, w: 175 },
+      network: { x: margin + 262, w: 140 },
+      terminal: { x: margin + 406, w: 170 },
+      link: { x: margin + 580, w: 85 },
+      verified: { x: margin + 670, w: 85 },
     };
 
     function drawHeader(y) {
-      doc.rect(40, y - 4, 515, 18).fill('#f1f5f9');
-      doc.fillColor('#334155').font('Helvetica-Bold').fontSize(8);
-      doc.text('IATA', colX.airport, y);
-      doc.text('LOUNGE NAME', colX.lounge, y);
-      doc.text('NETWORK', colX.network, y);
-      doc.text('TERMINAL / LOCATION', colX.terminal, y);
-      doc.text('WAITLIST LINK', colX.link, y);
+      doc.rect(margin, y - 5, contentWidth, 20).fill('#0f172a');
+      doc.fillColor('#ffffff').font('Helvetica-Bold').fontSize(8.5);
+      doc.text('AIRPORT', cols.airport.x, y);
+      doc.text('LOUNGE NAME', cols.lounge.x, y);
+      doc.text('NETWORK', cols.network.x, y);
+      doc.text('TERMINAL / LOCATION', cols.terminal.x, y);
+      doc.text('WAITLIST', cols.link.x, y);
+      doc.text('VERIFIED', cols.verified.x, y);
     }
 
-    let currentY = 110;
+    function drawPageHeader() {
+      doc.fillColor('#0f172a').fontSize(16).font('Helvetica-Bold').text('✈️ Airport Lounges Waitlist Directory', margin, margin);
+      doc.fontSize(8.5).font('Helvetica').fillColor('#64748b').text(
+        `Curated crowd-sourced directory · ${lounges.length} lounges verified · https://github.com/summyfeb12/airportlounges-waitlist-links`,
+        margin,
+        margin + 20
+      );
+    }
+
+    drawPageHeader();
+    let currentY = margin + 42;
     drawHeader(currentY);
-    currentY += 20;
+    currentY += 22;
 
     lounges.forEach((l, index) => {
-      // Check page height overflow
-      if (currentY > 740) {
+      // Row height estimate
+      const rowHeight = 24;
+
+      if (currentY + rowHeight > pageHeight - margin - 15) {
         doc.addPage();
-        currentY = 50;
+        drawPageHeader();
+        currentY = margin + 42;
         drawHeader(currentY);
-        currentY += 20;
+        currentY += 22;
       }
 
-      // Alternating row background
+      // Alternating background
       if (index % 2 === 1) {
-        doc.rect(40, currentY - 2, 515, 26).fill('#f8fafc');
+        doc.rect(margin, currentY - 4, contentWidth, rowHeight).fill('#f8fafc');
+      } else {
+        doc.rect(margin, currentY - 4, contentWidth, rowHeight).fill('#ffffff');
       }
 
-      doc.fillColor('#0f172a').font('Helvetica-Bold').fontSize(8.5);
-      doc.text(l.airport_code, colX.airport, currentY);
+      // Border separator
+      doc.rect(margin, currentY + rowHeight - 4, contentWidth, 0.5).fill('#e2e8f0');
 
-      doc.fillColor('#1e293b').font('Helvetica-Bold').fontSize(7.5);
-      doc.text(l.lounge_name, colX.lounge, currentY, { width: 120, height: 24, ellipsis: true });
+      // Airport & City
+      doc.fillColor('#0284c7').font('Helvetica-Bold').fontSize(9);
+      doc.text(l.airport_code, cols.airport.x, currentY);
+      doc.fillColor('#64748b').font('Helvetica').fontSize(7);
+      doc.text(l.city, cols.airport.x + 28, currentY + 1, { width: 42, ellipsis: true });
 
-      doc.fillColor('#475569').font('Helvetica').fontSize(7);
-      doc.text(l.network, colX.network, currentY, { width: 100, height: 24, ellipsis: true });
+      // Lounge Name
+      doc.fillColor('#0f172a').font('Helvetica-Bold').fontSize(8);
+      doc.text(l.lounge_name, cols.lounge.x, currentY + 1, { width: cols.lounge.w - 10, height: 18, ellipsis: true });
 
-      doc.fillColor('#475569').font('Helvetica').fontSize(7);
-      doc.text(l.terminal, colX.terminal, currentY, { width: 125, height: 24, ellipsis: true });
+      // Network
+      doc.fillColor('#334155').font('Helvetica').fontSize(7.5);
+      doc.text(l.network, cols.network.x, currentY + 1, { width: cols.network.w - 10, height: 18, ellipsis: true });
 
-      doc.fillColor('#0284c7').font('Helvetica-Bold').fontSize(7);
-      doc.text('Direct Link ↗', colX.link, currentY, {
+      // Terminal
+      doc.fillColor('#475569').font('Helvetica').fontSize(7.5);
+      doc.text(l.terminal, cols.terminal.x, currentY + 1, { width: cols.terminal.w - 10, height: 18, ellipsis: true });
+
+      // Short Clean Hyperlink Button
+      doc.rect(cols.link.x - 2, currentY - 1, 72, 14).fillAndStroke('#e0f2fe', '#0284c7');
+      doc.fillColor('#0369a1').font('Helvetica-Bold').fontSize(7.5);
+      doc.text('Join Queue ↗', cols.link.x + 6, currentY + 2, {
         link: l.waitlist_url,
-        underline: true
+        underline: false,
       });
 
-      currentY += 28;
+      // Verified date
+      doc.fillColor('#94a3b8').font('Helvetica').fontSize(7);
+      doc.text(l.last_verified, cols.verified.x, currentY + 2);
+
+      currentY += rowHeight;
     });
 
     doc.end();
