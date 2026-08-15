@@ -544,6 +544,14 @@ function generatePDF(lounges) {
       verified: { x: margin + 670, w: 85 },
     };
 
+    // Set clean PDF document metadata
+    doc.info.Title = 'Airport Lounges Waitlist Directory';
+    doc.info.Author = 'Open Source Community';
+    doc.info.Subject = 'Airport Lounge Digital Waitlist Directory';
+
+    const now = new Date();
+    const formattedTimestamp = now.toISOString().replace('T', ' ').substring(0, 19) + ' UTC';
+
     function drawHeader(y) {
       doc.rect(margin, y - 5, contentWidth, 20).fill('#0f172a');
       doc.fillColor('#ffffff').font('Helvetica-Bold').fontSize(8.5);
@@ -556,11 +564,11 @@ function generatePDF(lounges) {
     }
 
     function drawPageHeader() {
-      doc.fillColor('#0f172a').fontSize(16).font('Helvetica-Bold').text('✈️ Airport Lounges Waitlist Directory', margin, margin);
-      doc.fontSize(8.5).font('Helvetica').fillColor('#64748b').text(
-        `Curated crowd-sourced directory · ${lounges.length} lounges verified · https://github.com/summyfeb12/airportlounges-waitlist-links`,
+      doc.fillColor('#0f172a').fontSize(15).font('Helvetica-Bold').text('Airport Lounges Waitlist Directory', margin, margin);
+      doc.fontSize(8).font('Helvetica').fillColor('#64748b').text(
+        `Curated crowd-sourced directory · ${lounges.length} lounges verified · Last updated: ${formattedTimestamp} · https://github.com/summyfeb12/airportlounges-waitlist-links`,
         margin,
-        margin + 20
+        margin + 18
       );
     }
 
