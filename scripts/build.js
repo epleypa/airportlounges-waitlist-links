@@ -408,8 +408,8 @@ function generateWebSearchApp(lounges) {
       <h1>Airport Lounges Waitlist Directory</h1>
       <p class="subtitle">Search, filter, and access official digital waitlist & mobile check-in links before arriving at the lounge.</p>
       <div class="actions-bar">
-        <a href="https://github.com/summyfeb12/airportlounges-waitlist-links" class="btn btn-secondary">⭐ GitHub Repository</a>
-        <a href="lounges.pdf" class="btn btn-primary">📄 Download PDF Directory</a>
+        <a href="https://github.com/summyfeb12/airportlounges-waitlist-links" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">⭐ GitHub Repository</a>
+        <a href="lounges.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">📄 Download PDF Directory</a>
       </div>
     </header>
 

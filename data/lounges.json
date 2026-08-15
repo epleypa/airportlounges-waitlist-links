@@ -1,18 +1,5 @@
 [
-  {
-    "id": "atl-tc-delta-sky-club",
-    "airport_code": "ATL",
-    "airport_name": "Hartsfield-Jackson Atlanta International Airport",
-    "city": "Atlanta",
-    "country": "US",
-    "terminal": "Concourse C, near Gate C37",
-    "lounge_name": "Delta Sky Club",
-    "network": "Delta Sky Club",
-    "waitlist_url": "https://www.delta.com/us/en/delta-sky-club/overview",
-    "qr_code_only": false,
-    "notes": "Access queue opens when lounge nears capacity. Digital boarding pass required.",
-    "last_verified": "2026-08-14"
-  },
+  
   {
     "id": "atl-tf-the-club",
     "airport_code": "ATL",
@@ -25,20 +12,6 @@
     "waitlist_url": "https://waitwhile.com/locations/the-club-atl",
     "qr_code_only": false,
     "notes": "Priority Pass and day-pass accepted. Join Waitwhile queue when full.",
-    "last_verified": "2026-08-14"
-  },
-  {
-    "id": "bos-tb-chase-sapphire-lounge",
-    "airport_code": "BOS",
-    "airport_name": "Boston Logan International Airport",
-    "city": "Boston",
-    "country": "US",
-    "terminal": "Terminal B to C Connector, between Gates B40 and B39",
-    "lounge_name": "Chase Sapphire Lounge by The Club",
-    "network": "Chase Sapphire Lounge",
-    "waitlist_url": "https://chasesapphirelounge.theclubexperience.com",
-    "qr_code_only": false,
-    "notes": "Digital waitlist activates during peak capacity. Priority Pass members get 1 complimentary visit/yr without Chase Sapphire Reserve.",
     "last_verified": "2026-08-14"
   },
   {
@@ -140,48 +113,6 @@
     "last_verified": "2026-08-14"
   },
   {
-    "id": "den-tc-capital-one",
-    "airport_code": "DEN",
-    "airport_name": "Denver International Airport",
-    "city": "Denver",
-    "country": "US",
-    "terminal": "Concourse A, near Gate A34",
-    "lounge_name": "Capital One Lounge",
-    "network": "Capital One Lounge",
-    "waitlist_url": "https://www.capitalone.com/credit-cards/benefits/lounges",
-    "qr_code_only": false,
-    "notes": "Join digital waitlist via the Capital One mobile app or web portal within 3 hours of departure.",
-    "last_verified": "2026-08-14"
-  },
-  {
-    "id": "dfw-td-amex-centurion",
-    "airport_code": "DFW",
-    "airport_name": "Dallas/Fort Worth International Airport",
-    "city": "Dallas-Fort Worth",
-    "country": "US",
-    "terminal": "Terminal D, opposite Gate D12",
-    "lounge_name": "The Centurion Lounge",
-    "network": "American Express Centurion",
-    "waitlist_url": "https://global.americanexpress.com/lounge-access/the-centurion-lounge",
-    "qr_code_only": false,
-    "notes": "Check in and join mobile waitlist via the Amex App (Membership -> Find a Lounge) 3 hrs before departure.",
-    "last_verified": "2026-08-14"
-  },
-  {
-    "id": "dfw-td-capital-one",
-    "airport_code": "DFW",
-    "airport_name": "Dallas/Fort Worth International Airport",
-    "city": "Dallas-Fort Worth",
-    "country": "US",
-    "terminal": "Terminal D, near Gate D22",
-    "lounge_name": "Capital One Lounge",
-    "network": "Capital One Lounge",
-    "waitlist_url": "https://www.capitalone.com/credit-cards/benefits/lounges",
-    "qr_code_only": false,
-    "notes": "Join digital queue via Capital One mobile app or desk QR scan when busy.",
-    "last_verified": "2026-08-14"
-  },
-  {
     "id": "dfw-td-the-club",
     "airport_code": "DFW",
     "airport_name": "Dallas/Fort Worth International Airport",
@@ -209,34 +140,7 @@
     "notes": "Waitwhile queue for post-security lounge in Concourse A.",
     "last_verified": "2026-08-14"
   },
-  {
-    "id": "iad-tm-capital-one",
-    "airport_code": "IAD",
-    "airport_name": "Washington Dulles International Airport",
-    "city": "Washington, D.C.",
-    "country": "US",
-    "terminal": "Main Terminal, directly post-security (TSA PreCheck)",
-    "lounge_name": "Capital One Lounge",
-    "network": "Capital One Lounge",
-    "waitlist_url": "https://www.capitalone.com/credit-cards/benefits/lounges",
-    "qr_code_only": false,
-    "notes": "Join digital waitlist via Capital One app before clearing security.",
-    "last_verified": "2026-08-14"
-  },
-  {
-    "id": "jfk-t4-amex-centurion",
-    "airport_code": "JFK",
-    "airport_name": "John F. Kennedy International Airport",
-    "city": "New York",
-    "country": "US",
-    "terminal": "Terminal 4, post-security, left of TSA checkpoint",
-    "lounge_name": "The Centurion Lounge",
-    "network": "American Express Centurion",
-    "waitlist_url": "https://global.americanexpress.com/lounge-access/the-centurion-lounge",
-    "qr_code_only": false,
-    "notes": "Mobile check-in & waitlist available through American Express App up to 3 hours prior to scheduled flight departure.",
-    "last_verified": "2026-08-14"
-  },
+  
   {
     "id": "jfk-t4-chase-sapphire-lounge",
     "airport_code": "JFK",
@@ -322,34 +226,6 @@
     "last_verified": "2026-08-14"
   },
   {
-    "id": "lga-tb-amex-centurion",
-    "airport_code": "LGA",
-    "airport_name": "LaGuardia Airport",
-    "city": "New York",
-    "country": "US",
-    "terminal": "Terminal B, 4th floor pre-security / connector",
-    "lounge_name": "The Centurion Lounge",
-    "network": "American Express Centurion",
-    "waitlist_url": "https://global.americanexpress.com/lounge-access/the-centurion-lounge",
-    "qr_code_only": false,
-    "notes": "Check in via Amex App.",
-    "last_verified": "2026-08-14"
-  },
-  {
-    "id": "lga-tb-chase-sapphire-lounge",
-    "airport_code": "LGA",
-    "airport_name": "LaGuardia Airport",
-    "city": "New York",
-    "country": "US",
-    "terminal": "Terminal B, post-security, 4th floor",
-    "lounge_name": "Chase Sapphire Lounge by The Club",
-    "network": "Chase Sapphire Lounge",
-    "waitlist_url": "https://chasesapphirelounge.theclubexperience.com",
-    "qr_code_only": false,
-    "notes": "Directly accessible post-security in Terminal B. Digital waitlist available via QR / web link when full.",
-    "last_verified": "2026-08-14"
-  },
-  {
     "id": "mco-ta-the-club",
     "airport_code": "MCO",
     "airport_name": "Orlando International Airport",
@@ -391,20 +267,7 @@
     "notes": "First lounge at MDW. Priority Pass and day passes accepted via Waitwhile queue.",
     "last_verified": "2026-08-14"
   },
-  {
-    "id": "mia-td-amex-centurion",
-    "airport_code": "MIA",
-    "airport_name": "Miami International Airport",
-    "city": "Miami",
-    "country": "US",
-    "terminal": "Concourse D, 4th floor, near Gate D12",
-    "lounge_name": "The Centurion Lounge",
-    "network": "American Express Centurion",
-    "waitlist_url": "https://global.americanexpress.com/lounge-access/the-centurion-lounge",
-    "qr_code_only": false,
-    "notes": "Accessible from Concourses D and E airside.",
-    "last_verified": "2026-08-14"
-  },
+  
   {
     "id": "msy-ta-the-club",
     "airport_code": "MSY",
@@ -417,34 +280,6 @@
     "waitlist_url": "https://waitwhile.com/locations/the-club-msy",
     "qr_code_only": false,
     "notes": "Waitwhile queue for post-security Concourse A lounge.",
-    "last_verified": "2026-08-14"
-  },
-  {
-    "id": "ord-t5-swissport",
-    "airport_code": "ORD",
-    "airport_name": "O'Hare International Airport",
-    "city": "Chicago",
-    "country": "US",
-    "terminal": "Terminal 5, near Gate M13",
-    "lounge_name": "Swissport Lounge",
-    "network": "Priority Pass",
-    "waitlist_url": "https://www.prioritypass.com/lounges/usa/chicago-il-o-hare-intl/ord1-swissport-lounge",
-    "qr_code_only": false,
-    "notes": "Capacity restrictions common during peak afternoon international departures.",
-    "last_verified": "2026-08-14"
-  },
-  {
-    "id": "phx-t4-escape-lounge",
-    "airport_code": "PHX",
-    "airport_name": "Phoenix Sky Harbor International Airport",
-    "city": "Phoenix",
-    "country": "US",
-    "terminal": "Terminal 4, Concourse B, across from Gate B22",
-    "lounge_name": "Escape Lounge – The Centurion Studio Partner",
-    "network": "Escape Lounges",
-    "waitlist_url": "https://escapelounges.com/us/locations/phoenix/",
-    "qr_code_only": false,
-    "notes": "Complimentary entry for American Express Platinum cardholders.",
     "last_verified": "2026-08-14"
   },
   {
