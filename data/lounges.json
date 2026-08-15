@@ -1,5 +1,4 @@
 [
-  
   {
     "id": "atl-tf-the-club",
     "airport_code": "ATL",
@@ -113,6 +112,20 @@
     "last_verified": "2026-08-14"
   },
   {
+    "id": "dfw-td-plaza-premium",
+    "airport_code": "DFW",
+    "airport_name": "Dallas/Fort Worth International Airport",
+    "city": "Dallas-Fort Worth",
+    "country": "US",
+    "terminal": "Terminal D, near Gate D18",
+    "lounge_name": "Plaza Premium Lounge",
+    "network": "Plaza Premium",
+    "waitlist_url": "https://waitwhile.com/locations/plazapremiumloungete0934?registration=waitlist",
+    "qr_code_only": false,
+    "notes": "Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full.",
+    "last_verified": "2026-08-14"
+  },
+  {
     "id": "dfw-td-the-club",
     "airport_code": "DFW",
     "airport_name": "Dallas/Fort Worth International Airport",
@@ -140,35 +153,6 @@
     "notes": "Waitwhile queue for post-security lounge in Concourse A.",
     "last_verified": "2026-08-14"
   },
-  
-  {
-    "id": "jfk-t4-chase-sapphire-lounge",
-    "airport_code": "JFK",
-    "airport_name": "John F. Kennedy International Airport",
-    "city": "New York",
-    "country": "US",
-    "terminal": "Terminal 4, post-security, near Gate A2",
-    "lounge_name": "Chase Sapphire Lounge by The Club with Etihad Airways",
-    "network": "Chase Sapphire Lounge",
-    "waitlist_url": "https://chasesapphirelounge.theclubexperience.com",
-    "qr_code_only": false,
-    "notes": "Digital waitlist active during peak hours.",
-    "last_verified": "2026-08-14"
-  },
-  {
-    "id": "jfk-t4-delta-sky-club",
-    "airport_code": "JFK",
-    "airport_name": "John F. Kennedy International Airport",
-    "city": "New York",
-    "country": "US",
-    "terminal": "Terminal 4, Concourse B, near Gate B32",
-    "lounge_name": "Delta Sky Club",
-    "network": "Delta Sky Club",
-    "waitlist_url": "https://www.delta.com/us/en/delta-sky-club/overview",
-    "qr_code_only": false,
-    "notes": "Features Sky Deck. Waitlist queue on the Fly Delta app when lounge reaches capacity.",
-    "last_verified": "2026-08-14"
-  },
   {
     "id": "las-t3-the-club",
     "airport_code": "LAS",
@@ -184,20 +168,6 @@
     "last_verified": "2026-08-14"
   },
   {
-    "id": "las-td-amex-centurion",
-    "airport_code": "LAS",
-    "airport_name": "Harry Reid International Airport",
-    "city": "Las Vegas",
-    "country": "US",
-    "terminal": "Concourse D, opposite Gate D1",
-    "lounge_name": "The Centurion Lounge",
-    "network": "American Express Centurion",
-    "waitlist_url": "https://global.americanexpress.com/lounge-access/the-centurion-lounge",
-    "qr_code_only": false,
-    "notes": "Accessible from all terminals via the automated transit system.",
-    "last_verified": "2026-08-14"
-  },
-  {
     "id": "las-td-the-club",
     "airport_code": "LAS",
     "airport_name": "Harry Reid International Airport",
@@ -209,20 +179,6 @@
     "waitlist_url": "https://waitwhile.com/locations/the-club-las-t1",
     "qr_code_only": false,
     "notes": "Direct Waitwhile queue for Terminal 1 Concourse D.",
-    "last_verified": "2026-08-14"
-  },
-  {
-    "id": "lax-tb-amex-centurion",
-    "airport_code": "LAX",
-    "airport_name": "Los Angeles International Airport",
-    "city": "Los Angeles",
-    "country": "US",
-    "terminal": "Tom Bradley International Terminal (TBIT)",
-    "lounge_name": "The Centurion Lounge",
-    "network": "American Express Centurion",
-    "waitlist_url": "https://global.americanexpress.com/lounge-access/the-centurion-lounge",
-    "qr_code_only": false,
-    "notes": "Connected airside to Terminals 4, 5, 6, 7, and 8.",
     "last_verified": "2026-08-14"
   },
   {
@@ -267,7 +223,6 @@
     "notes": "First lounge at MDW. Priority Pass and day passes accepted via Waitwhile queue.",
     "last_verified": "2026-08-14"
   },
-  
   {
     "id": "msy-ta-the-club",
     "airport_code": "MSY",
@@ -311,20 +266,6 @@
     "last_verified": "2026-08-14"
   },
   {
-    "id": "sea-tc-amex-centurion",
-    "airport_code": "SEA",
-    "airport_name": "Seattle-Tacoma International Airport",
-    "city": "Seattle",
-    "country": "US",
-    "terminal": "Central Terminal, mezzanine level",
-    "lounge_name": "The Centurion Lounge",
-    "network": "American Express Centurion",
-    "waitlist_url": "https://global.americanexpress.com/lounge-access/the-centurion-lounge",
-    "qr_code_only": false,
-    "notes": "Expanded 28,000 sq ft space with full views of the airfield and Mt. Rainier.",
-    "last_verified": "2026-08-14"
-  },
-  {
     "id": "sea-ts-the-club",
     "airport_code": "SEA",
     "airport_name": "Seattle-Tacoma International Airport",
@@ -336,20 +277,6 @@
     "waitlist_url": "https://waitwhile.com/locations/the-club-sea-s",
     "qr_code_only": false,
     "notes": "Waitwhile queue for South Satellite airside lounge.",
-    "last_verified": "2026-08-14"
-  },
-  {
-    "id": "sfo-t1-amex-centurion",
-    "airport_code": "SFO",
-    "airport_name": "San Francisco International Airport",
-    "city": "San Francisco",
-    "country": "US",
-    "terminal": "Harvey Milk Terminal 1 & Terminal 3 connector, near Gate F1/F2",
-    "lounge_name": "The Centurion Lounge",
-    "network": "American Express Centurion",
-    "waitlist_url": "https://global.americanexpress.com/lounge-access/the-centurion-lounge",
-    "qr_code_only": false,
-    "notes": "Post-security connector links Terminals 1, 2, and 3.",
     "last_verified": "2026-08-14"
   },
   {
