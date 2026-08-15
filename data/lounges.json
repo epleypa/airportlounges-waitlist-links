@@ -1,5 +1,4 @@
 [
-  
   {
     "id": "atl-tf-the-club",
     "airport_code": "ATL",
@@ -140,7 +139,6 @@
     "notes": "Waitwhile queue for post-security lounge in Concourse A.",
     "last_verified": "2026-08-14"
   },
-  
   {
     "id": "jfk-t4-chase-sapphire-lounge",
     "airport_code": "JFK",
@@ -267,7 +265,6 @@
     "notes": "First lounge at MDW. Priority Pass and day passes accepted via Waitwhile queue.",
     "last_verified": "2026-08-14"
   },
-  
   {
     "id": "msy-ta-the-club",
     "airport_code": "MSY",
