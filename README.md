@@ -1,6 +1,6 @@
 # ✈️ Airport Lounges Waitlist Links
 
-[![Lounges Count](https://img.shields.io/badge/Lounges_Tracked-23-blue.svg?style=for-the-badge&logo=aer-lingus)](data/lounges.json)
+[![Lounges Count](https://img.shields.io/badge/Lounges_Tracked-24-blue.svg?style=for-the-badge&logo=aer-lingus)](data/lounges.json)
 [![Download PDF](https://img.shields.io/badge/Download-PDF_Directory-red.svg?style=for-the-badge&logo=adobe-acrobat-reader)](assets/lounges.pdf)
 [![Live Interactive Search](https://img.shields.io/badge/Search_%26_Filter-Live_Web_App-brightgreen.svg?style=for-the-badge&logo=safari)](https://summyfeb12.github.io/airportlounges-waitlist-links/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=for-the-badge)](CONTRIBUTING.md)
@@ -12,6 +12,7 @@
 ---
 
 ### 📥 Export & Quick Access Options
+
 - 📄 <a href="assets/lounges.pdf" target="_blank" rel="noopener noreferrer"><b>Download PDF Quick-Sheet</b></a> (Printable / Offline access)
 - 🔍 <a href="https://summyfeb12.github.io/airportlounges-waitlist-links/" target="_blank" rel="noopener noreferrer"><b>Interactive Search & Filter Web App</b></a> (Instant mobile search by airport, terminal, or network)
 - 💾 <a href="data/lounges.json" target="_blank" rel="noopener noreferrer"><b>Raw JSON Dataset</b></a>
@@ -43,6 +44,7 @@
 | <a id="cvg"></a>**CVG**<br>_Cincinnati_ | Concourse A, between Gates A8 and A10 | **The Club CVG** | `The Club` | <a href="https://waitwhile.com/locations/the-club-cvg" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Waitwhile queue available when lounge reaches capacity. | `2026-08-14` |
 | <a id="dfw"></a>**DFW**<br>_Dallas-Fort Worth_ | Terminal D, near Gate D18 | **Plaza Premium Lounge** | `Plaza Premium` | <a href="https://waitwhile.com/locations/plazapremiumloungete0934?registration=waitlist" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full. | `2026-08-14` |
 | **DFW**<br>_Dallas-Fort Worth_ | Terminal D, near Gate D27 | **The Club DFW** | `The Club` | <a href="https://waitwhile.com/locations/the-club-dfw" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Accessible from all terminals via Skylink train. | `2026-08-14` |
+| **DFW**<br>_Dallas-Fort Worth_ | Terminal E, near Gate E31 | **Plaza Premium Lounge** | `Plaza Premium` | <a href="https://waitwhile.com/locations/plazapremiumdfw/party-size?qr=true" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full. | `2026-08-27` |
 | <a id="grr"></a>**GRR**<br>_Grand Rapids_ | Concourse A, near Gate A6 | **The Club GRR** | `The Club` | <a href="https://waitwhile.com/locations/the-club-grr" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Waitwhile queue for post-security lounge in Concourse A. | `2026-08-14` |
 | <a id="las"></a>**LAS**<br>_Las Vegas_ | Terminal 3, across from Gate E2 | **The Club LAS (Terminal 3)** | `The Club` | <a href="https://waitwhile.com/locations/the-club-las-t3" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Direct Waitwhile queue for Terminal 3. | `2026-08-14` |
 | **LAS**<br>_Las Vegas_ | Terminal 1, Concourse D, 2nd floor near Gate D33 | **The Club LAS (Terminal 1D)** | `The Club` | <a href="https://waitwhile.com/locations/the-club-las-t1" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Direct Waitwhile queue for Terminal 1 Concourse D. | `2026-08-14` |
@@ -62,11 +64,12 @@
 ### 🌐 Lounges by Network
 
 <details id="plaza-premium">
-<summary><b>Plaza Premium (1)</b></summary>
+<summary><b>Plaza Premium (2)</b></summary>
 
 | Airport | Terminal | Lounge | Waitlist Link | Notes |
 | :--- | :--- | :--- | :--- | :--- |
 | **DFW** | Terminal D, near Gate D18 | Plaza Premium Lounge | <a href="https://waitwhile.com/locations/plazapremiumloungete0934?registration=waitlist" target="_blank" rel="noopener noreferrer">Join Waitlist ↗</a> | Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full. |
+| **DFW** | Terminal E, near Gate E31 | Plaza Premium Lounge | <a href="https://waitwhile.com/locations/plazapremiumdfw/party-size?qr=true" target="_blank" rel="noopener noreferrer">Join Waitlist ↗</a> | Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full. |
 
 </details>
 
@@ -110,7 +113,7 @@
 Found a new lounge waitlist link or notice an expired queue URL? We'd love your contribution!
 
 1. Check our **[ID Naming & Contributing Guidelines](CONTRIBUTING.md)**.
-2. Edit [`data/lounges.json`](data/lounges.json) directly or submit a PR.
+2. Edit [`data/lounges.json`](data/lounges.json) and submit a PR.
 3. Test locally with `npm test`.
 
 ## ⚠️ Disclaimer
@@ -118,6 +121,5 @@ Found a new lounge waitlist link or notice an expired queue URL? We'd love your 
 This repository and project are an independent, community-driven, crowd-sourced effort. It is **not affiliated with, endorsed by, or sponsored by** any airport, airline, lounge operator, financial institution, or credit card network (including but not limited to American Express, Chase, Capital One, Delta Air Lines, United Airlines, American Airlines, Priority Pass, Plaza Premium, or others). All trademarks, logos, and brand names are the property of their respective owners. Waitlist availability, queue times, entry eligibility, and rules are subject to change at the discretion of the individual lounge operators.
 
 ## 📜 License
+
 This project is dedicated to the public domain under [The Unlicense](LICENSE).
-
-
