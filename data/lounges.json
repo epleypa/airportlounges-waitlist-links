@@ -380,7 +380,7 @@
     "lounge_name": "Aspire Lounge SAN",
     "network": "Priority Pass",
     "waitlist_url": "https://20901.waitwell.ca/?c=qr",
-    "notes": "WaitWell queue, not Waitwhile. Amex and Priority Pass guests join the waitlist when the lounge is at capacity; British Airways passengers and Admirals Club members go directly to the front desk.",
+    "notes": "WaitWell queue. Discovered via door placard QR code; fully joinable via web link. Amex and Priority Pass guests join waitlist when at capacity.",
     "last_verified": "2026-08-27"
   },
   {
