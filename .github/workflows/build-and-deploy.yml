@@ -38,6 +38,7 @@ jobs:
       - name: Commit & Push updated assets via Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
+          token: ${{ secrets.PAT_TOKEN }}
           commit-message: "chore: update generated README table and PDF assets [skip ci]"
           title: "chore: update generated assets"
           body: "Auto-generated assets update"
