@@ -112,20 +112,6 @@
     "last_verified": "2026-08-14"
   },
   {
-    "id": "dfw-te-plaza-premium",
-    "airport_code": "DFW",
-    "airport_name": "Dallas/Fort Worth International Airport",
-    "city": "Dallas-Fort Worth",
-    "country": "US",
-    "terminal": "Terminal E, near Gate E31",
-    "lounge_name": "Plaza Premium Lounge",
-    "network": "Plaza Premium",
-    "waitlist_url": "https://waitwhile.com/locations/plazapremiumdfw/party-size?qr=true",
-    "qr_code_only": false,
-    "notes": "Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full.",
-    "last_verified": "2026-08-27"
-  },
-  {
     "id": "dfw-td-plaza-premium",
     "airport_code": "DFW",
     "airport_name": "Dallas/Fort Worth International Airport",
@@ -138,6 +124,20 @@
     "qr_code_only": false,
     "notes": "Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full.",
     "last_verified": "2026-08-14"
+  },
+  {
+    "id": "dfw-te-plaza-premium",
+    "airport_code": "DFW",
+    "airport_name": "Dallas/Fort Worth International Airport",
+    "city": "Dallas-Fort Worth",
+    "country": "US",
+    "terminal": "Terminal E, near Gate E31",
+    "lounge_name": "Plaza Premium Lounge",
+    "network": "Plaza Premium",
+    "waitlist_url": "https://waitwhile.com/locations/plazapremiumdfw/party-size?qr=true",
+    "qr_code_only": false,
+    "notes": "Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full.",
+    "last_verified": "2026-08-27"
   },
   {
     "id": "dfw-td-the-club",
