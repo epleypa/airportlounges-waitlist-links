@@ -1,6 +1,6 @@
 # ✈️ Airport Lounges Waitlist Links
 
-[![Lounges Count](https://img.shields.io/badge/Lounges_Tracked-24-blue.svg?style=for-the-badge&logo=aer-lingus)](data/lounges.json)
+[![Lounges Count](https://img.shields.io/badge/Lounges_Tracked-25-blue.svg?style=for-the-badge&logo=aer-lingus)](data/lounges.json)
 [![Download PDF](https://img.shields.io/badge/Download-PDF_Directory-red.svg?style=for-the-badge&logo=adobe-acrobat-reader)](assets/lounges.pdf)
 [![Live Interactive Search](https://img.shields.io/badge/Search_%26_Filter-Live_Web_App-brightgreen.svg?style=for-the-badge&logo=safari)](https://summyfeb12.github.io/airportlounges-waitlist-links/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=for-the-badge)](CONTRIBUTING.md)
@@ -23,10 +23,10 @@
 ### ⚡ Quick Navigation / Jump Filter
 
 **By Airport Code:**
-[`ATL`](#atl) · [`BOS`](#bos) · [`BUF`](#buf) · [`BWI`](#bwi) · [`CHS`](#chs) · [`CLE`](#cle) · [`CLT`](#clt) · [`CVG`](#cvg) · [`DFW`](#dfw) · [`GRR`](#grr) · [`LAS`](#las) · [`MCO`](#mco) · [`MDW`](#mdw) · [`MSY`](#msy) · [`PIT`](#pit) · [`SEA`](#sea) · [`SFO`](#sfo) · [`SJC`](#sjc)
+[`ATL`](#atl) · [`BOS`](#bos) · [`BUF`](#buf) · [`BWI`](#bwi) · [`CHS`](#chs) · [`CLE`](#cle) · [`CLT`](#clt) · [`CVG`](#cvg) · [`DFW`](#dfw) · [`GRR`](#grr) · [`LAS`](#las) · [`MCO`](#mco) · [`MDW`](#mdw) · [`MSY`](#msy) · [`PIT`](#pit) · [`SAN`](#san) · [`SEA`](#sea) · [`SFO`](#sfo) · [`SJC`](#sjc)
 
 **By Network:**
-[`Plaza Premium`](#plaza-premium) · [`The Club`](#the-club)
+[`Plaza Premium`](#plaza-premium) · [`Priority Pass`](#priority-pass) · [`The Club`](#the-club)
 
 ---
 
@@ -53,6 +53,7 @@
 | <a id="mdw"></a>**MDW**<br>_Chicago_ | Central Market, near Gate A1 | **The Club MDW** | `The Club` | <a href="https://waitwhile.com/locations/the-club-mdw" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | First lounge at MDW. Priority Pass and day passes accepted via Waitwhile queue. | `2026-08-14` |
 | <a id="msy"></a>**MSY**<br>_New Orleans_ | Concourse A, 3rd floor across from Gate A1 | **The Club MSY** | `The Club` | <a href="https://waitwhile.com/locations/the-club-msy" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Waitwhile queue for post-security Concourse A lounge. | `2026-08-14` |
 | <a id="pit"></a>**PIT**<br>_Pittsburgh_ | Concourse C, near Gate C1 | **The Club PIT** | `The Club` | <a href="https://waitwhile.com/locations/the-club-pit" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Priority Pass accepted. Join digital queue via Waitwhile. | `2026-08-14` |
+| <a id="san"></a>**SAN**<br>_San Diego_ | Terminal 2, between the T2 East checkpoint and the bridge to T2 West | **Aspire Lounge SAN** | `Priority Pass` | <a href="https://20901.waitwell.ca/?c=qr" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | WaitWell queue, not Waitwhile. Amex and Priority Pass guests join the waitlist when the lounge is at capacity; British Airways passengers and Admirals Club members go directly to the front desk. | `2026-08-27` |
 | <a id="sea"></a>**SEA**<br>_Seattle_ | Concourse A, near Gate A11 | **The Club SEA (Concourse A)** | `The Club` | <a href="https://waitwhile.com/locations/the-club-sea-a" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Waitwhile queue for Concourse A location. | `2026-08-14` |
 | **SEA**<br>_Seattle_ | South Satellite, near Gate S9 | **The Club SEA (South Satellite)** | `The Club` | <a href="https://waitwhile.com/locations/the-club-sea-s" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Waitwhile queue for South Satellite airside lounge. | `2026-08-14` |
 | <a id="sfo"></a>**SFO**<br>_San Francisco_ | Harvey Milk Terminal 1, near Gate B4 | **The Club SFO** | `The Club` | <a href="https://waitwhile.com/locations/the-club-sfo" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Features microclimate fireplace, fitness room, and local microbrews. | `2026-08-14` |
@@ -70,6 +71,15 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **DFW** | Terminal D, near Gate D18 | Plaza Premium Lounge | <a href="https://waitwhile.com/locations/plazapremiumloungete0934?registration=waitlist" target="_blank" rel="noopener noreferrer">Join Waitlist ↗</a> | Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full. |
 | **DFW** | Terminal E, near Gate E31 | Plaza Premium Lounge | <a href="https://waitwhile.com/locations/plazapremiumdfw/party-size?qr=true" target="_blank" rel="noopener noreferrer">Join Waitlist ↗</a> | Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full. |
+
+</details>
+
+<details id="priority-pass">
+<summary><b>Priority Pass (1)</b></summary>
+
+| Airport | Terminal | Lounge | Waitlist Link | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **SAN** | Terminal 2, between the T2 East checkpoint and the bridge to T2 West | Aspire Lounge SAN | <a href="https://20901.waitwell.ca/?c=qr" target="_blank" rel="noopener noreferrer">Join Waitlist ↗</a> | WaitWell queue, not Waitwhile. Amex and Priority Pass guests join the waitlist when the lounge is at capacity; British Airways passengers and Admirals Club members go directly to the front desk. |
 
 </details>
 
