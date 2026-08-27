@@ -266,6 +266,20 @@
     "last_verified": "2026-08-14"
   },
   {
+    "id": "san-t2-aspire",
+    "airport_code": "SAN",
+    "airport_name": "San Diego International Airport",
+    "city": "San Diego",
+    "country": "US",
+    "terminal": "Terminal 2, between the T2 East checkpoint and the bridge to T2 West",
+    "lounge_name": "Aspire Lounge SAN",
+    "network": "Priority Pass",
+    "waitlist_url": "https://20901.waitwell.ca/?c=qr",
+    "qr_code_only": false,
+    "notes": "WaitWell queue, not Waitwhile. Amex and Priority Pass guests join the waitlist when the lounge is at capacity; British Airways passengers and Admirals Club members go directly to the front desk.",
+    "last_verified": "2026-08-27"
+  },
+  {
     "id": "sea-ta-the-club",
     "airport_code": "SEA",
     "airport_name": "Seattle-Tacoma International Airport",
