@@ -2,7 +2,7 @@ name: Build and Deploy Assets
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -26,8 +26,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: "20"
+          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
@@ -35,16 +35,19 @@ jobs:
       - name: Build assets (README table, PDF, Web App)
         run: npm run build
 
-      - name: Commit & Push updated README and PDF (if changed)
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit & Push updated assets via Pull Request
+        uses: peter-evans/create-pull-request@v5
         with:
-          commit_message: "chore: update generated README table and PDF assets [skip ci]"
-          file_pattern: "README.md assets/lounges.pdf data/lounges.json"
+          commit-message: "chore: update generated README table and PDF assets [skip ci]"
+          title: "chore: update generated assets"
+          body: "Auto-generated assets update"
+          branch: "chore/update-assets"
+          delete-branch: true
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist'
+          path: "dist"
 
   deploy-pages:
     needs: build
