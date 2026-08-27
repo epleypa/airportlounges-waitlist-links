@@ -701,7 +701,13 @@ function generatePDF(lounges) {
 async function build() {
   console.log('🚀 Running build...');
   const lounges = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-  const sorted = sortLounges(lounges);
+
+  // Strip deprecated fields and sort
+  const clean = lounges.map((l) => {
+    const { qr_code_only, ...rest } = l;
+    return rest;
+  });
+  const sorted = sortLounges(clean);
 
   // Write sorted data back to ensure formatting consistency
   fs.writeFileSync(dataPath, JSON.stringify(sorted, null, 2) + '\n', 'utf8');

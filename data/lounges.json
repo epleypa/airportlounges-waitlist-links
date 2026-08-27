@@ -182,6 +182,32 @@
     "last_verified": "2026-08-14"
   },
   {
+    "id": "ltn-tm-my-lounge",
+    "airport_code": "LTN",
+    "airport_name": "London Luton Airport",
+    "city": "London",
+    "country": "GB",
+    "terminal": "Main Terminal, after security near Gate 17",
+    "lounge_name": "My Lounge London Luton",
+    "network": "Independent",
+    "waitlist_url": "https://waitwhile.com/locations/ltn0m?qr=true",
+    "notes": "Operated by No1 Lounges. Priority Pass accepted. Join digital Waitwhile waitlist when full.",
+    "last_verified": "2026-08-27"
+  },
+  {
+    "id": "ltn-tm-no1-lounge",
+    "airport_code": "LTN",
+    "airport_name": "London Luton Airport",
+    "city": "London",
+    "country": "GB",
+    "terminal": "Main Terminal, after security near Gate 17",
+    "lounge_name": "No1 Lounge London Luton",
+    "network": "Independent",
+    "waitlist_url": "https://waitwhile.com/locations/ltn01?qr=true",
+    "notes": "Operated by No1 Lounges. Priority Pass accepted. Join digital Waitwhile waitlist when full.",
+    "last_verified": "2026-08-27"
+  },
+  {
     "id": "mco-ta-the-club",
     "airport_code": "MCO",
     "airport_name": "Orlando International Airport",

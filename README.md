@@ -1,6 +1,6 @@
 # ✈️ Airport Lounges Waitlist Links
 
-[![Lounges Count](https://img.shields.io/badge/Lounges_Tracked-33-blue.svg?style=for-the-badge&logo=aer-lingus)](data/lounges.json)
+[![Lounges Count](https://img.shields.io/badge/Lounges_Tracked-35-blue.svg?style=for-the-badge&logo=aer-lingus)](data/lounges.json)
 [![Download PDF](https://img.shields.io/badge/Download-PDF_Directory-red.svg?style=for-the-badge&logo=adobe-acrobat-reader)](assets/lounges.pdf)
 [![Live Interactive Search](https://img.shields.io/badge/Search_%26_Filter-Live_Web_App-brightgreen.svg?style=for-the-badge&logo=safari)](https://summyfeb12.github.io/airportlounges-waitlist-links/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=for-the-badge)](CONTRIBUTING.md)
@@ -23,7 +23,7 @@
 ### ⚡ Quick Navigation / Jump Filter
 
 **By Airport Code:**
-[`ATL`](#atl) · [`BOS`](#bos) · [`BUF`](#buf) · [`BWI`](#bwi) · [`CHS`](#chs) · [`CLE`](#cle) · [`CLT`](#clt) · [`CVG`](#cvg) · [`DFW`](#dfw) · [`GRR`](#grr) · [`LAS`](#las) · [`MCO`](#mco) · [`MDW`](#mdw) · [`MEX`](#mex) · [`MSY`](#msy) · [`NLU`](#nlu) · [`OAK`](#oak) · [`PIT`](#pit) · [`SAN`](#san) · [`SEA`](#sea) · [`SFO`](#sfo) · [`SJC`](#sjc) · [`YYZ`](#yyz)
+[`ATL`](#atl) · [`BOS`](#bos) · [`BUF`](#buf) · [`BWI`](#bwi) · [`CHS`](#chs) · [`CLE`](#cle) · [`CLT`](#clt) · [`CVG`](#cvg) · [`DFW`](#dfw) · [`GRR`](#grr) · [`LAS`](#las) · [`LTN`](#ltn) · [`MCO`](#mco) · [`MDW`](#mdw) · [`MEX`](#mex) · [`MSY`](#msy) · [`NLU`](#nlu) · [`OAK`](#oak) · [`PIT`](#pit) · [`SAN`](#san) · [`SEA`](#sea) · [`SFO`](#sfo) · [`SJC`](#sjc) · [`YYZ`](#yyz)
 
 **By Network:**
 [`Escape Lounges`](#escape-lounges) · [`Independent`](#independent) · [`Plaza Premium`](#plaza-premium) · [`Priority Pass`](#priority-pass) · [`The Club`](#the-club)
@@ -48,6 +48,8 @@
 | <a id="grr"></a>**GRR**<br>_Grand Rapids_ | Concourse A, near Gate A6 | **The Club GRR** | `The Club` | <a href="https://waitwhile.com/locations/the-club-grr" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Waitwhile queue for post-security lounge in Concourse A. | `2026-08-14` |
 | <a id="las"></a>**LAS**<br>_Las Vegas_ | Terminal 3, across from Gate E2 | **The Club LAS (Terminal 3)** | `The Club` | <a href="https://waitwhile.com/locations/the-club-las-t3" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Direct Waitwhile queue for Terminal 3. | `2026-08-14` |
 | **LAS**<br>_Las Vegas_ | Terminal 1, Concourse D, 2nd floor near Gate D33 | **The Club LAS (Terminal 1D)** | `The Club` | <a href="https://waitwhile.com/locations/the-club-las-t1" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Direct Waitwhile queue for Terminal 1 Concourse D. | `2026-08-14` |
+| <a id="ltn"></a>**LTN**<br>_London_ | Main Terminal, after security near Gate 17 | **My Lounge London Luton** | `Independent` | <a href="https://waitwhile.com/locations/ltn0m?qr=true" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Operated by No1 Lounges. Priority Pass accepted. Join digital Waitwhile waitlist when full. | `2026-08-27` |
+| **LTN**<br>_London_ | Main Terminal, after security near Gate 17 | **No1 Lounge London Luton** | `Independent` | <a href="https://waitwhile.com/locations/ltn01?qr=true" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Operated by No1 Lounges. Priority Pass accepted. Join digital Waitwhile waitlist when full. | `2026-08-27` |
 | <a id="mco"></a>**MCO**<br>_Orlando_ | Terminal A, Concourse 1, near Gate 29 | **The Club MCO (Terminal A)** | `The Club` | <a href="https://waitwhile.com/locations/the-club-mco-a1" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Direct Waitwhile queue link for Terminal A Concourse 1. | `2026-08-14` |
 | **MCO**<br>_Orlando_ | Terminal B, Concourse 4, near Gate 91 | **The Club MCO (Terminal B)** | `The Club` | <a href="https://waitwhile.com/locations/the-club-mco-a4" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Direct Waitwhile queue link for Terminal B Concourse 4. | `2026-08-14` |
 | <a id="mdw"></a>**MDW**<br>_Chicago_ | Central Market, near Gate A1 | **The Club MDW** | `The Club` | <a href="https://waitwhile.com/locations/the-club-mdw" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | First lounge at MDW. Priority Pass and day passes accepted via Waitwhile queue. | `2026-08-14` |
@@ -82,10 +84,12 @@
 </details>
 
 <details id="independent">
-<summary><b>Independent (6)</b></summary>
+<summary><b>Independent (8)</b></summary>
 
 | Airport | Terminal | Lounge | Waitlist Link | Notes |
 | :--- | :--- | :--- | :--- | :--- |
+| **LTN** | Main Terminal, after security near Gate 17 | My Lounge London Luton | <a href="https://waitwhile.com/locations/ltn0m?qr=true" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Operated by No1 Lounges. Priority Pass accepted. Join digital Waitwhile waitlist when full. |
+| **LTN** | Main Terminal, after security near Gate 17 | No1 Lounge London Luton | <a href="https://waitwhile.com/locations/ltn01?qr=true" target="_blank" rel="noopener noreferrer"><b>Join Waitlist</b> ↗</a> | Operated by No1 Lounges. Priority Pass accepted. Join digital Waitwhile waitlist when full. |
 | **MEX** | Terminal 1 | Celeste Lounge Elite | <a href="https://thegrandloungeelite.com.mx/en/lounge/celeste-lounge-elite" target="_blank" rel="noopener noreferrer"><b>Reserve</b> ↗</a> | Operator's own booking form on the lounge page, pre-set to this lounge. Run by The Grand Lounge Elite. |
 | **MEX** | Terminal 1, Concourse H, across from Duty Free | Haven (VISA) | <a href="https://thegrandloungeelite.com.mx/en/lounge/haven-visa" target="_blank" rel="noopener noreferrer"><b>Reserve</b> ↗</a> | VISA Infinite cardholders only. Operator's own booking form, run by The Grand Lounge Elite. |
 | **MEX** | Terminal 1, opposite gate 19 | Lounge 19 | <a href="https://thegrandloungeelite.com.mx/en/lounge/lounge-19" target="_blank" rel="noopener noreferrer"><b>Reserve</b> ↗</a> | Operator's own booking form on the lounge page, pre-set to this lounge. Run by The Grand Lounge Elite. |
