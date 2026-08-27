@@ -453,5 +453,19 @@
     "qr_code_only": false,
     "notes": "Waitwhile queue for Terminal A Gate 8 location.",
     "last_verified": "2026-08-14"
+  },
+  {
+    "id": "yyz-t1-plaza-premium",
+    "airport_code": "YYZ",
+    "airport_name": "Toronto Pearson International Airport",
+    "city": "Toronto",
+    "country": "CA",
+    "terminal": "Terminal 1, Departures, between Gates F33 and F55",
+    "lounge_name": "Plaza Premium Lounge (USA Transborder)",
+    "network": "Plaza Premium",
+    "waitlist_url": "https://waitwhile.com/locations/yyzt1ustransborderde?qr=true",
+    "qr_code_only": false,
+    "notes": "Priority Pass and Capital One cardholder access accepted. Join digital Waitwhile waitlist when full.",
+    "last_verified": "2026-08-27"
   }
 ]
