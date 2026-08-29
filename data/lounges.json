@@ -156,6 +156,19 @@
     "last_verified": "2026-08-14"
   },
   {
+    "id": "iad-tb-turkish-lounge",
+    "airport_code": "IAD",
+    "airport_name": "Dulles International Airport",
+    "city": "Dulles",
+    "country": "US",
+    "terminal": "Terminal B, near Gate B43",
+    "lounge_name": "Turkish Lounge IAD",
+    "network": "Priority Pass",
+    "waitlist_url": "https://waitwhile.com/locations/turkishloungeiad",
+    "notes": "Waitwhile queue for post-security lounge in Terminal B.",
+    "last_verified": "2026-08-29"
+  },
+  {
     "id": "las-t3-the-club",
     "airport_code": "LAS",
     "airport_name": "Harry Reid International Airport",
