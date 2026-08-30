@@ -56,6 +56,19 @@
     "last_verified": "2026-08-27"
   },
   {
+    "id": "anc-tc-alaska-lounge",
+    "airport_code": "ANC",
+    "airport_name": "Ted Stevens Anchorage International Airport",
+    "city": "Anchorage",
+    "country": "US",
+    "terminal": "South Terminal, Concourse C, near Gate C1",
+    "lounge_name": "Alaska Lounge ANC",
+    "network": "Independent",
+    "waitlist_url": "https://waitwhile.com/locations/alaskaloungeanc?qr=true",
+    "notes": "Alaska Lounge. Digital Waitwhile queue when the lounge is at capacity.",
+    "last_verified": "2026-08-27"
+  },
+  {
     "id": "arn-tm-aspire-lounge",
     "airport_code": "ARN",
     "airport_name": "Stockholm Arlanda Airport",
@@ -519,6 +532,19 @@
     "last_verified": "2026-08-27"
   },
   {
+    "id": "iad-tb-turkish-lounge",
+    "airport_code": "IAD",
+    "airport_name": "Washington Dulles International Airport",
+    "city": "Washington",
+    "country": "US",
+    "terminal": "Concourse B, near Gate B43",
+    "lounge_name": "Turkish Airlines Lounge IAD",
+    "network": "Independent",
+    "waitlist_url": "https://waitwhile.com/locations/turkishloungeiad?qr=true",
+    "notes": "Turkish Airlines lounge. Digital Waitwhile queue when at capacity.",
+    "last_verified": "2026-08-27"
+  },
+  {
     "id": "inv-tm-aspire-lounge",
     "airport_code": "INV",
     "airport_name": "Inverness Airport",
@@ -530,6 +556,19 @@
     "booking_url": "https://www.aspirelounges.com/airport-lounges/inverness-airport-aspire-lounge/",
     "booking_cost": "cash",
     "notes": "Operator's own lounge page with a Book this lounge form. Open to all passengers; Priority Pass, DragonPass and Dreamfolks accepted at most locations - check the page for this lounge. Priority Pass, DragonPass and Dreamfolks holders can pre-book against a membership credit instead, and pay the walk-up price only if short of credits on the day.",
+    "last_verified": "2026-08-27"
+  },
+  {
+    "id": "jfk-t7-alaska-lounge",
+    "airport_code": "JFK",
+    "airport_name": "John F. Kennedy International Airport",
+    "city": "New York",
+    "country": "US",
+    "terminal": "Terminal 7, mezzanine level above the security checkpoint",
+    "lounge_name": "Alaska Lounge JFK",
+    "network": "Independent",
+    "waitlist_url": "https://waitwhile.com/locations/alaskaloungejfk?qr=true",
+    "notes": "Alaska Lounge. Digital Waitwhile queue when the lounge is at capacity.",
     "last_verified": "2026-08-27"
   },
   {
@@ -585,6 +624,19 @@
     "waitlist_url": "https://waitwhile.com/locations/the-club-las-t1",
     "notes": "Direct Waitwhile queue for Terminal 1 Concourse D.",
     "last_verified": "2026-08-14"
+  },
+  {
+    "id": "lax-t6-alaska-lounge",
+    "airport_code": "LAX",
+    "airport_name": "Los Angeles International Airport",
+    "city": "Los Angeles",
+    "country": "US",
+    "terminal": "Terminal 6, mezzanine level near Gate 64",
+    "lounge_name": "Alaska Lounge LAX",
+    "network": "Independent",
+    "waitlist_url": "https://waitwhile.com/locations/alaskaloungelax?qr=true",
+    "notes": "Alaska Lounge. Digital Waitwhile queue when the lounge is at capacity.",
+    "last_verified": "2026-08-27"
   },
   {
     "id": "lgw-tn-no1-lounge",
@@ -1042,6 +1094,19 @@
     "last_verified": "2026-08-27"
   },
   {
+    "id": "pdx-tm-alaska-lounge",
+    "airport_code": "PDX",
+    "airport_name": "Portland International Airport",
+    "city": "Portland",
+    "country": "US",
+    "terminal": "South Hall, mezzanine level past the South security checkpoint",
+    "lounge_name": "Alaska Lounge PDX",
+    "network": "Independent",
+    "waitlist_url": "https://waitwhile.com/locations/alaskaloungepdx?qr=true",
+    "notes": "Alaska Lounge. Digital Waitwhile queue when the lounge is at capacity.",
+    "last_verified": "2026-08-27"
+  },
+  {
     "id": "per-t1-aspire-lounge",
     "airport_code": "PER",
     "airport_name": "Perth Airport",
@@ -1093,6 +1158,45 @@
     "waitlist_url": "https://waitwhile.com/locations/the-club-sea-a",
     "notes": "Waitwhile queue for Concourse A location.",
     "last_verified": "2026-08-14"
+  },
+  {
+    "id": "sea-tc-alaska-lounge",
+    "airport_code": "SEA",
+    "airport_name": "Seattle-Tacoma International Airport",
+    "city": "Seattle",
+    "country": "US",
+    "terminal": "Concourse C, mezzanine level next to Gate C16",
+    "lounge_name": "Alaska Lounge SEA (Concourse C)",
+    "network": "Independent",
+    "waitlist_url": "https://waitwhile.com/locations/seac1?qr=true",
+    "notes": "Alaska Lounge. Digital Waitwhile queue when the lounge is at capacity.",
+    "last_verified": "2026-08-27"
+  },
+  {
+    "id": "sea-td-alaska-lounge",
+    "airport_code": "SEA",
+    "airport_name": "Seattle-Tacoma International Airport",
+    "city": "Seattle",
+    "country": "US",
+    "terminal": "Concourse D, upper level beyond Security Checkpoint 4",
+    "lounge_name": "Alaska Lounge SEA (Concourse D)",
+    "network": "Independent",
+    "waitlist_url": "https://waitwhile.com/locations/sead1?qr=true",
+    "notes": "Alaska Lounge. Digital Waitwhile queue when the lounge is at capacity.",
+    "last_verified": "2026-08-27"
+  },
+  {
+    "id": "sea-tn-alaska-lounge",
+    "airport_code": "SEA",
+    "airport_name": "Seattle-Tacoma International Airport",
+    "city": "Seattle",
+    "country": "US",
+    "terminal": "North Satellite, mezzanine level above Gates N13-N18",
+    "lounge_name": "Alaska Lounge SEA (North Satellite)",
+    "network": "Independent",
+    "waitlist_url": "https://waitwhile.com/locations/sean13?qr=true",
+    "notes": "Alaska Lounge. Digital Waitwhile queue when the lounge is at capacity.",
+    "last_verified": "2026-08-27"
   },
   {
     "id": "sea-ts-the-club",
